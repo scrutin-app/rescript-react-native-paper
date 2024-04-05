@@ -1,6 +1,6 @@
 @module("react-native-paper") @react.component
 external make: (
-  ~mode: [#text | #outlined | #contained]=?,
+  ~mode: [#text | #outlined | #contained | #tonal | #elevated ]=?,
   ~disabled: bool=?,
   ~compact: bool=?,
   ~raised: bool=?,
