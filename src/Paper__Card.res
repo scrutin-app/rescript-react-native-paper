@@ -12,7 +12,7 @@ external make: (
 ) => React.element = "Card"
 
 @deriving(abstract)
-type props = {
+type props_ = {
   @optional
   elevation: int,
   @optional
