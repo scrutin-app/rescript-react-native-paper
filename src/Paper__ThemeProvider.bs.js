@@ -5,12 +5,12 @@ var Colors = {};
 
 var Fonts = {};
 
-var Animation = {};
+var $$Animation = {};
 
 var Theme = {
   Colors: Colors,
   Fonts: Fonts,
-  Animation: Animation
+  $$Animation: $$Animation
 };
 
 exports.Theme = Theme;
